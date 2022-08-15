@@ -1,0 +1,22 @@
+{
+  "name": "noahcoetsee.me",
+  "version": "1.0.0",
+  "description": "Website for moi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noahcoetsee/noahcoetsee.me.git"
+  },
+  "author": "Noah Coetsee <noah@noahcoetsee.me>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/noahcoetsee/noahcoetsee.me/issues"
+  },
+  "homepage": "https://github.com/noahcoetsee/noahcoetsee.me#readme",
+  "dependencies": {
+    "xterm": "^4.10.0"
+  }
+}

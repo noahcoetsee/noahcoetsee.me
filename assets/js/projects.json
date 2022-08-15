@@ -1,0 +1,57 @@
+{
+    "projects": {
+        "FeaturedSpace": {
+            "version": "2.0.3",
+            "started": "August, 2019",
+            "completed": "Ongoing",
+            "website": "featuredspace.com",
+            "github": "None",
+            "description": [
+                "FeaturedSpace is a Minecraft Network project that I started in 2019, after coining the name: 'FeaturedSpace'.",
+                "Minecraft is the game that initially got me into programming, and still to this day I enjoy working with it!",
+                "The FeaturedSpace Network is meant to be more than just a Minecraft Network. It is a connected network of",
+                "various different 3rd party servers for different games such as Minecraft, Rust, Terraria, CS:GO, and more.",
+                "",
+                "The main feature of FeaturedSpace is its unique gamemodes that are created to be genuine experiences rather than",
+                "small minigames that are pay-to-win (which was a big problem in the Minecraft 3rd-party community).",
+                "",
+                "Unfortunately, due to it being a proprietary project, the source code is not available, however you can check out",
+                "the network at its website: https://featuredspace.com"
+            ]
+        },
+        "pyDraw": {
+            "version": "1.2.0",
+            "started": "December, 2020",
+            "completed": "Ongoing",
+            "website": "pydraw.graphics",
+            "github": "https://github.com/pydraw/pydraw",
+            "description": [
+                "pyDraw is a graphics library for Python, designed to help students learn to program easily with Python.",
+                "The main idea behind it was the poor design of Python's default 'turtle' module. It was simple not up to",
+                "the standards I would set for a program designed to teach real programming. It was difficult to use to create",
+                "interactive programs or programs of great magnitude.",
+                "",
+                "pyDraw solves this with its object-oriented interface, making it easy to interact with shapes and objects, along",
+                "with adding an automated input-system, allowing input methods to be created and registered with zero hassle.",
+                "It also introduced easy modification as all classes are well documented and there is a standard way to define",
+                "new types of Polygons."
+            ]
+        },
+        "javaDraw": {
+            "version": "1.0.0",
+            "started": "February, 2021",
+            "completed": "Ongoing",
+            "website": "javadraw.graphics",
+            "github": "https://github.com/javadraw/javadraw",
+            "description": [
+                "javaDraw is the sister library to pyDraw (`project pydraw`), and was designed to be a very similar interface.",
+                "It allows for students to quickly and effectively learn Java Programming with graphics; with as little hassle as possible",
+                "The base for javaDraw was CoffeeDraw, an unfinished project I made in 2018-2019 based on ObjectDraw (a graphics library).",
+                "I designed CoffeeDraw as a fork of ObjectDraw and then later converted it to be used as javaDraw!",
+                "",
+                "javaDraw features easy input (As simple as extending `Window` and defining methods), object-oriented polygons, and",
+                "easy-to-use algorithms such as .contains() and .overlaps(), allowing for true interactive programs/games to be easily designed."
+            ]
+        }
+    }
+}
