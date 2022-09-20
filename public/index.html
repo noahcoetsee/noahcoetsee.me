@@ -7,15 +7,19 @@
     <!-- STYLESHEET -->
     <link rel="stylesheet" type="text/css" href="index.css" />
   </head>
-  <body>
+  <body onload="initializeCanvas()">
     <nav>
-      <h3>Noah Coetsee</h3>
-      <ul>
+      <div class="left">
+        <h2><a href="https://noahcoetsee.me">Noah Coetsee</a></h2>
+      </div>
+      <div class="right">
+        <ul>
         <li>About</li>
         <li>Experience</li>
         <li>Projects</li>
         <li>Contact</li>
       </ul>
+      </div>
     </nav>
     <header>
       <!-- IDEAS FOR HEADER
@@ -23,11 +27,16 @@
             - perhaps even a death star too...
             - there so many cool options I can't even decide
         -->
-      <div id="header-canvas">
+
+      <div class="header-left">
         <h1 class="header-text">Hey-o! I'm Noah!</h1>
         <h4 class="header-subtext secondary">Software Engineer</h4>
         <p class="header-description">I am a software engineer specializing in full-stack application development and networking.</p>
       </div>
+      <div class="header-right">
+        <canvas id="header-canvas" width="600" height="450" class="webgl-canvas js-globe-canvas" style="display: inline-block; width: 600px; height: 450px; "></canvas>
+      </div>
+
     </header>
     <main>
       <div class="about-me">
@@ -75,6 +84,32 @@
             <img src="images/mage/example2.png" />
           </div>
         </div>
+      </div>
+      <div class="proficiencies">
+        <div class="languages">
+          <div class="language">
+            <img src="images/languages/rust.png" />
+            <div>Rust</div>
+            <div class="proficiency-level-intermediate">Intermediate</div>
+          </div>
+          <div class="language">
+            <img src="images/languages/typescript.png" />
+            <div>JavaScript/TypeScript</div>
+            <div class="proficiency-level-advanced">Advanced</div>
+          </div>
+          <div class="language">
+            <img src="images/languages/python.png">
+            <div>Python</div>
+            <div class="proficiency-level-expert">Expert</div>
+          </div>
+          <div class="language">
+            <img src="images/languages/java.png">
+            <div>Java</div>
+            <div class="proficiency-level-expert">Advanced</div>
+          </div>
+        </div>
+        <div class="libraries"></div>
+        <div class="tools"></div>
       </div>
       <div class="contact">
         <h3>Connect with me!</h3>

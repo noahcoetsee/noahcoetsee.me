@@ -5,24 +5,89 @@ html, body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
+body {
+    margin: 2rem;
+    margin-top: .5rem;
+}
+
 .secondary {
     color: rgb(156, 168, 179);
 }
 
+/**
+ * NAVIGATION
+ */
 nav {
-    box-shadow: 1px;
+    position: fixed;
+    width: 94vw;
+
     display: flex;
-    background-color: red;
-    align-content: space-between;
+    /* align-content: space-between; */
+    justify-content: space-between;
     align-items: center;
+    
+    background-color: rgb(50, 50, 50);
+    box-shadow: 2px;
+    border-radius: 25px;
 
+    padding-left: 2rem;
+    padding-right: 1rem;
 }
-
-nav * {
-    align-content: space-between;
-}
-
 
 nav ul li {
     display: inline-block;
+    margin-right: 1rem;
+
+    font-size: 20px;
+}
+
+
+a {
+    color: white;
+    text-decoration: none;
+
+    
+}
+
+a:active {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: rgb(235, 235, 235);
+}
+
+/**
+ * HEADER
+ */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 2rem;
+    margin-top: 5rem;
+}
+
+.header-left {
+    margin-top: -3rem; /* move back a bit to look a little better */
+}
+
+.header-right {
+    margin-top: 1rem;
+}
+
+.header-text {
+    font-size: 4rem;
+    margin: 0;
+}
+
+.header-subtext {
+    margin: 0;
+}
+
+.header-description {
+    width: 20rem;
+    font-size: 1.15rem;
 }
