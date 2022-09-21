@@ -18,6 +18,10 @@ let initializeCanvas = () => {
     const circle = new Path2D();
     circle.arc(100, 100, 100, 0, 2 * Math.PI);
     ctx.stroke(circle);
+
+    const moon = new Path2D();
+    moon.arc(150, 100, 50, 0, 2 * Math.PI);
+    ctx.stroke(moon);
   }
  
 };
